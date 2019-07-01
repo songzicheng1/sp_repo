@@ -16,7 +16,11 @@ management:
       exposure:
         include: hystrix.stream
 
-
+rabbitmq:
+    host: 192.168.232.131
+    port: 5051
+    username: admin
+    password: admin
 ---
 spring:
   profiles: item1
